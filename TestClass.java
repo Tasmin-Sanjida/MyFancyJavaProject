@@ -99,3 +99,5 @@ class Painter
          rombus.draw();
      }
 }
+
+/* Sir,i have some family issues.For this reason, i have to go to outside the Dhaka.That's why today i have finished my assignment part. */
