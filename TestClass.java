@@ -3,22 +3,22 @@ public class TestClass
 {  
 public static void main(String[] args)  
 {  
-int i, j, rows;  
+int m, j, row;  
 Scanner sc = new Scanner(System.in);  
 System.out.print("Enter the number of rows you want to print: ");  
-rows = sc.nextInt();          
-for (i= 0; i<= rows-1; i++)  
+row = sc.nextInt();          
+for (m= 0; m<= row-1; m++)  
 {
 System.out.println("");
-for (j=0; j<=i; j++)   
+for (j=0; j<=m; j++)   
 {  
 System.out.print("*"+ " ");
-}   
+}  
 } 
 System.out.println(""); 
-for (i=rows-1; i>=0; i--)  
+for (m=row-1; m>=0; m--)  
 {  
-for(j=0; j <= i-1;j++)  
+for(j=0; j <= m-1;j++)  
 {  
 System.out.print("*"+ " ");  
 }  
